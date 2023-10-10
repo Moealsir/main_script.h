@@ -1,6 +1,5 @@
 #!/bin/bash
 
-clear
 echo "#include <unistd.h>
 #include "main.h"
 
