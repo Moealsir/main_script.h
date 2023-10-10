@@ -1,5 +1,6 @@
 #!/bin/bash
 
+#create _putchar.c file
 echo "#include <unistd.h>
 #include "main.h"
 
@@ -15,10 +16,10 @@ int _putchar(char c)
 	return (write(1, &c, 1));
 }" > _putchar.c
 
+#create README.md file
 echo "readme file" > README.md
 
-#!/bin/bash
-
+#create main.h file
 # Initialize the content of main.h
 cat <<EOF > main.h
 #ifndef MAIN_H
