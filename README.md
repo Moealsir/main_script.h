@@ -24,6 +24,6 @@ main_script.h
 main_script.h
 ~~~
 
-2. Write libraries (write q to exit libraries loop)
-3. Write prototypes (write q to exit libraries loop)
-4. All files have been created
+2. Write libraries (write q to exit libraries loop).
+3. Write prototypes (write q to exit libraries loop).
+4. All files have been created.
