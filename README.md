@@ -5,15 +5,12 @@
 https://github.com/Moealsir/main_script.h.git
 ~~~
 
-2. Write this command on your terminal
+2. Move file to /bin using command
 ~~~
 sudo mv main_script.h
 ~~~
 
-3. now you can call the script from every where writing script name.
-~~~
-main_script.h
-~~~
+3. Now you can call the script from every where.
 
 4. Open usage image to have a look for how to use.
 <br><br>
