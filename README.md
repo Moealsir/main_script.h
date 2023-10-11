@@ -1,3 +1,8 @@
+**#UPDATES:**
+<br>
+You can can specifiy file name of the header file
+<br>
+
 **#Installation:**
 
 1. Clone repo using link:
@@ -20,7 +25,7 @@ sudo mv main_script.h
 ~~~
 main_script.h
 ~~~
-
-2. Write libraries (write q to exit libraries loop).
-3. Write prototypes (write q to exit libraries loop).
-4. All files have been created.
+2. Write file name
+3. Write libraries (write q to exit libraries loop).
+4. Write prototypes (write q to exit libraries loop).
+5. All files have been created.

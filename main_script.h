@@ -20,10 +20,16 @@ int _putchar(char c)
 echo "readme file" > README.md
 
 #create main.h file
-# Initialize the content of main.h
-cat <<EOF > main.h
-#ifndef MAIN_H
-#define MAIN_H
+# Ask the user for the name of the header file
+read -p "Enter the name of the header file (without extension): " header_name
+
+# Add '.h' extension to the header file name
+header_file="${header_name}.h"
+
+# Initialize the content of the header file
+cat <<EOF > "$header_file"
+#ifndef ${header_name^^}_H
+#define ${header_name^^}_H
 
 EOF
 
@@ -33,13 +39,13 @@ while true; do
     if [ "$library" = "q" ]; then
         break
     else
-        echo "#include <$library.h>" >> main.h
+        echo "#include <$library.h>" >> "$header_file"
     fi
 done
 
 # Add a new line gap
-echo >> main.h
-echo "int _putchar(char c);" >> main.h
+echo >> "$header_file"
+echo "int _putchar(char c);" >> "$header_file"
 
 # Loop to enter prototypes
 while true; do
@@ -47,15 +53,15 @@ while true; do
     if [ "$prototype" = "q" ]; then
         break
     else
-        echo "$prototype" >> main.h
+        echo "$prototype" >> "$header_file"
     fi
 done
 
-# Complete the content of main.h
-cat <<EOF >> main.h
+# Complete the content of the header file
+cat <<EOF >> "$header_file"
 
 #endif
 EOF
 
-echo "main.h has been created with the specified libraries and prototypes."
+echo "$header_file has been created with the specified libraries and prototypes."
 
