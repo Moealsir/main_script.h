@@ -12,7 +12,7 @@ https://github.com/Moealsir/main_script.h.git
 
 2. Move file to /bin using command
 ~~~
-sudo mv main_script.h /bin/
+sudo cp main_script.h /bin/
 ~~~
 
 3. Now you can call the script from every where.
