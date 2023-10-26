@@ -9,15 +9,18 @@ You can can specifiy file name of the header file
 ~~~
 https://github.com/Moealsir/main_script.h.git
 ~~~
-
-2. Move file to /bin using command
+2. Enter the directory
+~~~
+cd main_script.h
+~~~
+3. copy script to /bin using command
 ~~~
 sudo cp main_script.h /bin/
 ~~~
 
-3. Now you can call the script from every where.
+4. Now you can call the script from every where.
 
-4. Open usage image to have a look for how to use.
+5. Open usage image to have a look for how to use.
 <br><br>
 
 **#Usage:**
@@ -25,7 +28,8 @@ sudo cp main_script.h /bin/
 ~~~
 main_script.h
 ~~~
-2. Write file name
+2. Write header file name
 3. Write libraries (write q to exit libraries loop).
 4. Write prototypes (write q to exit libraries loop).
 5. All files have been created.
+6. _putchar.c file created and prototype was added to header file.
