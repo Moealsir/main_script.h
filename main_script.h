@@ -2,7 +2,7 @@
 
 #create _putchar.c file
 echo "#include <unistd.h>
-#include "main.h"
+#include \"main.h\"
 
 /**
  * _putchar - writes the character c to stdout
