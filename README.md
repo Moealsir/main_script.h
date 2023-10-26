@@ -1,8 +1,13 @@
 **#UPDATES:**
 <br>
-You can can specifiy file name of the header file
+You can can specifiy name the header file name
 <br>
 
+**#What does the script do:**
+<br>
+This script is used to fast generate (header.h, _putchar.c, README.md) files, you only need to write header file name, llibraries and prototypes and all files will be generated.
+<br>
+<br>
 **#Installation:**
 
 1. Clone repo using link:
